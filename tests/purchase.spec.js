@@ -102,6 +102,5 @@ await c.clickPurchaseButton()
 const message = await c.message()
 await expect(message).toHaveText('Thank you for your purchase!')
 await c.clickOk()
-//await page.pause()
 
 })
